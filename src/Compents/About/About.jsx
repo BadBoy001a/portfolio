@@ -1,6 +1,7 @@
 import React from 'react'
 import about_profile from '../../assets/about_profile.svg'
 import { FaBolt } from "react-icons/fa";
+import { ReactTyped } from "react-typed";
 
 function About() {
   return (
@@ -10,7 +11,7 @@ function About() {
               I'm {""}
         <span className='text-transparent bg-clip-text bg-gradient-to-t from-orange-900 via-orange-500 to-yellow-500'>Muhammad ATIF</span> Frontend
         <br />
-              developer based in Pakistan
+             <ReactTyped strings={['Developer', 'Designer', 'Freelancer']} typeSpeed={120} backSpeed={140} style={{ color: '#555' }} loop /> based in Pakistan
           </h1>
           <p className='sm:text-lg  mt-3 text-gray-300'>
               I'm a frontend developer from karachi, pakistan and I specialize in <br /> building modern  and responseive wep applications.

@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaFacebook ,FaLinkedin,FaGithub} from 'react-icons/fa'
+import { FaFacebook, FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa'
+
 
 function Icons() {
   return (
@@ -36,8 +37,8 @@ function Icons() {
                         <a href="https://github.com/BadBoy001a/BadBoy001a.git"target="_blank">
                           <FaGithub className='text-3xl text-gray-400 hover:text-white '></FaGithub>
                       </a>
-                        <a href="">
-                          <FaFacebook className='text-3xl text-gray-400 hover:text-white '></FaFacebook>
+                        <a href="https://wa.me/923171847693" target="_blank">
+                          <FaWhatsapp className='text-3xl text-gray-400 hover:text-white '></FaWhatsapp>
                      </a>
                   </div>
                   <div className='flex space-x-4'>

@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import atif from '../../assets/atif.png'
-import { Menu, X } from 'lucide-react'
-import { FaChessQueen, } from "react-icons/fa";
+import { FaChessQueen,FaAlignRight,FaTimes} from "react-icons/fa";
 import { useAuth0 } from "@auth0/auth0-react";
 
 
@@ -55,8 +54,8 @@ function Navbar() {
               <a href="#contact" className=' py-2 px-3 border rounded-md text-lg bg-gradient-to-t from-orange-700 via-orange-400 to-yellow-500'>Contact me</a>
             </div>
             <div className="lg:hidden md:flex flex-col  justify-end">
-              <button className='w-10 ' onClick={toggleNavbar}>
-                {moblieDrawerOpen ? <X/> : <Menu/>}
+              <button className='w-10'onClick={toggleNavbar}>
+                {moblieDrawerOpen ?<FaTimes className='text-3xl'></FaTimes>:<FaAlignRight className='text-3xl'></FaAlignRight>}
               </button>
             </div>
           </div>
