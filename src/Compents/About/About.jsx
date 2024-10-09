@@ -2,7 +2,6 @@ import React from 'react'
 import about_profile from '../../assets/about_profile.svg'
 import { FaBolt } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
-
 function About() {
   return (
     <div className='bg-black text-white text-center py-8'>
